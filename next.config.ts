@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
-  distDir: "out",
+  // Using standard server-rendered mode for Vercel
+  // Removed static export configuration
 };
 
 export default nextConfig;
