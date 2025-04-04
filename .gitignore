@@ -16,6 +16,9 @@
 # next.js
 /.next/
 /out/
+# Keep important manifest files
+!/out/routes-manifest.json
+!/out/prerender-manifest.json
 
 # production
 /build
